@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafıza Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+
+    <div id="AnaMenu" class="menu">
+        <h1>Memory Game</h1>
+        <h3 class="SkorText">Skor : 0</h3>
+        <button id="StartButton" onclick="StartGame()">Oyna</button>
+    </div>
+
+    <div id="GameMenu" class="close menu">
+        <h1>Oyun</h1>
+        <h3 class="SkorText">Skor : 0</h3>
+
+        <div id="AnaKutu">
+            <div id="MerkezYuvarlak" class="MiniBox"><span id="Skor" class="SkorText">0</span></div>
+
+            <div id="GreenBox" class="MiniBox"></div>
+            <div id="YellowBox" class="MiniBox"></div>
+            <br>
+            <div id="RedBox" class="MiniBox"></div>
+            <div id="BlueBox" class="MiniBox"></div>
+        </div>
+    </div>
+
+</body>
+</html>
